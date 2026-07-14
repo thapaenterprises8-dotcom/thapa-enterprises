@@ -27,7 +27,92 @@ header h1{
     font-size:52px;
     color:#ffd54f;
     margin-bottom:15px;
-    text-transform:uppercase;
+    /* ===== THAPA ENTERPRISES - PART 2 ===== */
+
+.contact{
+    background:#0b1f3f;
+    text-align:center;
+}
+
+.contact-box{
+    max-width:700px;
+    margin:auto;
+    background:#102040;
+    padding:30px;
+    border-radius:15px;
+    border:2px solid #ffd54f;
+}
+
+.contact-box h3{
+    color:#ffd54f;
+    margin-bottom:20px;
+}
+
+.contact-box p{
+    margin:10px 0;
+}
+
+.contact-box a{
+    color:#ffd54f;
+    text-decoration:none;
+}
+
+.contact-box a:hover{
+    color:#ffffff;
+}
+
+footer{
+    background:#00122e;
+    text-align:center;
+    padding:25px;
+    color:#cccccc;
+    font-size:15px;
+}
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    background:#25D366;
+    color:#fff;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    text-decoration:none;
+    box-shadow:0 0 15px rgba(0,0,0,.4);
+    transition:.3s;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:34px;
+}
+
+header p{
+    font-size:18px;
+}
+
+section{
+    padding:50px 20px;
+}
+
+section h2{
+    font-size:28px;
+}
+
+button{
+    width:100%;
+}
+}    text-transform:uppercase;
 }
 
 header p{
